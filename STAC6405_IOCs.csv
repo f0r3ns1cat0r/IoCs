@@ -1,0 +1,122 @@
+﻿Indicator_type,Data,Notes
+Description,IOCs related to STAC6405 RMM phishing campaign,https://www.sophos.com/en-gb/blog/incident-responders-s-il-vous-plait
+file_path,C:\Users\<User>\Downloads\docureaderxxstatements.exe,Downloaded file
+file_path,C:\Users\<Users>\Downloads\Invitation.exe,Initial file downloaded from phishing URL via email
+file_path,C:\Users\<User>\Downloads\ContractAgreementToSign (1).exe,Initial file downloaded from phishing URL via email
+file_path,C:\Users\<User>\Downloads\Diverse-Build-Solution.exe,LogMeIn installer file
+file_path,C:\Users\<User>Downloads\RescueExternalCollab.exe,LogMeIn installer file
+file_path,C:\Users\<User>\Downloads\alscproposal.exe,LogMeIn installer file
+file_path,C:\Users\<User>\Downloads\invt-list2025.exe,LogMeIn installer file
+file_path,C:\Users\<User>\Downloads\Orçamento até o dia 20 do 10...exe,LogMeIn installer file
+file_path,C:\Users\<User>\Downloads\statmts_PDF-10.25.exe,LogMeIn installer file
+file_path,C:\Users\<User>\Downloads\Statement.exe,Downloaded file 
+file_path,C:\Users\<User>\Downloads\DocuSign-e-Signature-Key.exe,Downloaded file 
+file_path,C:\Users\<User>\Downloads\SPCL_INVITE_RSVP_2025.exe,Downloaded file 
+file_path,C:\users\<User>\Downloads\10Card2025.exe,Downloaded file 
+file_path,C:\Users\<User>\Downloads\open-newdocc.exe,Downloaded file
+file_path,E:\Users\<User>\Downloads\TotalCareMedProp.exe,Downloaded file
+file_path,C:\Users\<User>Downloads\MicosoftTeamUpdate (1).exe,Downloaded file
+file_path,C:\Users\<User>Downloads\MicosoftTeamUpdate (5).exe,Downloaded file
+file_path,C:\Users\<User>\Downloads\Invitation_e-Card.exe,Downloaded file
+file_path,C:\Users\<User>\Downloads\Invitation_e-Card (1).exe,Downloaded file
+file_path,C:\Users\<User>\Downloads\Invitation_e-Card(2).exe,Downloaded file
+file_path,C:\Users\<User>\Downloads\Thanksgiving-iv.exe,Downloaded file
+file_path,C:\Users\<User>\Downloads\AdobePDF_Enterprise.ClientSetup.exe,Downloaded file
+file_path,C:\Users\<User>Downloads\232invite_s_8DDFF00C56FF12-3-0_c_w.exe,Downloaded file
+file_path,C:\Users\<User>\Downloads\CARDvite.exe,Downloaded file
+file_path,C:\Users\<User>\Downloads\Rsvp (1).exe,Detected PUA
+file_path,C:\Users\<User>\Downloads\filedocument016371.exe,LogMeIn installer file
+file_path,C:\Users\<User>\Downloads\RSVPFORALL.exe,Downloaded file
+file_path,C:\Users\<User>\Downloads\docusign.exe,Downloaded file
+file_path,C:\Users\<User>\Downloads\SSA_Yearly_Balance.exe,Downloaded file
+file_path,C:\Users\<User>\Downloads\EVENTSLIST.exe,Downloaded file
+file_path,C:\Users\<User>\Downloads\Viewpartyonline (1).exe,Downloaded file
+file_path,C:\Users\<User>\Downloads\StatementD9123812 (1).exe,Downloaded file
+file_path,C:\Users\<User>\Downloads\Guestbucket.exe,Downloaded file
+file_path,C:\Users\<User>\Downloads\=OpenInvitation (3).exe,Downloaded file
+file_path,C:\Users\<User>\Downloads\Guests_invitation.exe,Downloaded file
+file_path,C:\Users\<User>\Downloads\proposal202025.exe,Downloaded file
+file_path, C:\Users\<User>\Downloads\GoldenEntryInvite.exe,Downloaded file
+file_path,C:\Users\<User>\Downloads\Awaiting_Review.exe,Downloaded file
+file_path,C:\Users\<User>Downloads\Access_Documents.exe,Downloaded file
+file_path,C:\Users\<User>\Downloads\TRANSCRIPT.exe,Downloaded file
+file_path,C:\Users\<User>\Downloads\statmts_PDF10.25.ex,Downloaded file
+file_path,C:\Users\<User>\Downloads\ProIV.exe,Downloaded file
+filename,8776_6713_exe.zip,ZIP archive
+filename,HideMouse.exe,Mouse cursor hider
+filename,GoToResolveUnattendedUpdater.exe,Downloaded file
+sha256,c93accb4235a7686740b53120779faa64bdea560c5f65b359a590dfca4b5495e,docureaderxxstatements.exe
+sha256,466e0fb03c943b6834458cd308d4f856522651917c00ed23345cf19780d3710d,Invitation.exe
+sha256,d2b2a0be11f68e3bc21535388f660b289d767712837eab1a27b2deae5ba43dca,ContractAgreementToSign (1).exe
+sha256,"833b0f9872703226d3917a1792c00ec3ebdd5ffae69d6fabfe9a9d7e725a3b45
+",RescueExternalCollab.exe
+sha256,bd8257d99483690b760632d4bde19c931992b0f193c10ecc3a37b8344aa471f2,Statement.exe
+sha256,92ef186211dc625e1b084cf6109f7a79106f5745228eca939405d70454a85d81,SPCL_INVITE_RSVP_2025.exe
+sha256,95d041b2ad3c04b061d2c7c44e04a500ffe023466082777731aeaf1f9d8211f7,10Card2025.exe
+sha1,e9476b2af07a3109586e1b55264ed62b0d636e4b,TotalCareMedProp.exe
+sha256,256586bc6d4b4b9c92758cafe9bcc1864c80e7ab89bde7adc21e4c368af1cd8437a,Rsvp (1).exe
+sha256,f5bb55399342d626d7cce64db7523635a2276ebad3dcaf5fa0470f361266bd16,RSVPFORALL.exe
+sha256,7896efb0666cf89df63fb1fdc35567d483312895388f2cd1661d2541c396ddc6,StatementD9123812 (1).exe
+sha256,4b0b6565a3e91f0778b1e802c0d9295dee993a87e976f357e69a840a32827860,Access_Documents.exe
+sha256,fd0b80b48662543e6346a8455b51e0b56a0a10aac01bcd085bca2a9b47c62006,8776_6713_exe.zip
+sha256,4c3ba24dbb7fda78a9b94741c518985f9fcd670ab1a2d8d3498a739aad98b4a1,HideMouse.exe
+url_path,https://wtisolucoes.com.br/dbsprojects/complete.php,Initial file downloaded from phishing URL via email
+domain,relay.adminshop.live,Malicious screenconnect relay
+email,3t4l2abckbnwiwn0j-xmfwjx-ir-stwjuq3lttlqj.htrfsljqfyxfsix.htr@doclist.bounces.google.com,Sender email
+domain,https://www.i.pendritechit.org/ ,Download URL
+domain,https://positivealpha.in/invite/,Download URL
+domain,support.ogbonsmushhh.top,Malicious screenconnect relay
+domain,https://filedoc0027.pages.dev,File download URL
+domain,https://rsu.za.com/iownic/main.html,File download URL
+domain,489483896l.top,Malicious screenconnect relay
+domain,https://priavatemessagiesevnts.de/sharepoints/edit,File download URL
+domain,ii11.my,Malicious screenconnect relay
+url_path,https://pub-ca443ab5121c407f87ae84d542565725.r2.dev/invt-list2025.exe,screenconnect connection
+url_path,https://www.dropbox.com/scl/fi/3jk5gxicsilax5vtlnqau/Or-amento-at-o-dia-20-do-10...exe?rlkey=jzapaziu3tlpmzrqc6qiorwqa&st=8jcbwop2&dl=1,Initial file downloaded from phishing URL via email
+url_path,"https://b0198-c376220d91-d2db5e89-e07bc152.zynverro.com/393i4yX/
+",Download sites
+url_path,https://pauloalmeidadesign.com.br/www/statmts_PDF-10.25.exe,Download sites
+url_path,https://elzonte-lety.com,Initial file downloaded from phishing URL via email
+url_path,https://rosaryinfotech.com/mmp/index.html,Initial file downloaded from phishing URL via email
+domain,relay.dajanzskreen.top,Suspicious screenconnect relay
+domain,https://allcheers.top/grand/.,URL malicious file was downloaded from
+domain,instance-p05iyd-relay.screenconnect.com,Suspicious screenconnect relay
+domain,relay.edunscaskreen.top,Suspicious screenconnect relay
+domain,relay.melechskreen.top,Suspicious screenconnect relay
+domain,tech.blinksings.top,Suspicious screenconnect relay
+domain,https://cold-na-phx-8.gofile.io,Download URL
+domain,https://pub-0e9274b4f4a74997bcafd5c5c778bf91.r2.dev,Download URL
+url_path,"https://nfs-connect.com/docu/
+",Download URL
+url_path,https://pishbinifoori.com/bid/,Download URL
+url_path,https://store9.gofile.io/download/direct/2e1b06cd-473c-46fb-873c-69b3b96e244f/,Download URL
+url_path,https://stargetawayyov.it.com/log/ff.html,Download URL
+url_path,https://t.ly/HZmqV,Download URL
+url_path,https://inv-docusign-25.deno.dev/,File download URL
+url_path,https://wd503.myworkday.com/opendoorhealth/login-saml2.htmld,File download URL
+url_path,https://pub-4eaadc21db3f42cb920b03671821761a.r2.dev/GoldenEntryInvite.exe,File download URL
+url_path,https://2u.pw/bchgf3,Phishing URL
+url_path,https://in2sites-stack.info/e-sign/docureaderxxstatements.exe,File download URL
+url_path,https[:]//elzonte-lety.com//download_invitee.php,File download URL
+url_path,https://sweetcherrystore.com/bid/,File download URL
+url_path,https://danielaviana.net.br/wwwe/statmts_PDF10.25.exe,File download URL
+url_path,https://server4wolve.in/invite/windows_download.php,File download URL
+domain,relay.saggeygareskreen.top,Suspicious ScreenConnect Relay
+url_path,https://pfsgh.com/microsoft_teams/meeting/teamsfinal/meeting/teamsfinal/teams/Windows/invite.php,Download URL
+url_path,https://arkmiura.com/download_invitee.php,Download URL
+url_path,https://arkmiura.com/bid/,Download URL
+url_path,https://buy.vgtoken.com/docu,Download URL
+url_path,https://inviteproposal.online/fkg/project,Download URL
+url_path,https://elev8souvenirs.com/docu/,Download URL
+url_path,http://mug.ru.com/SHARE/INVITE.exe,Download URL
+url_path,https://mjr.ru.com/invite/Inv.html,Download URL
+url_path,https://how.ru.com/party/inv.html,Download URL
+url_path,https://secure-doc.mastorpasstop.top/12/inv.html,Download URL
+url_path,http://ezfrags.online/inv.html,Download URL
+url_path,https://evitereview.de/inv,Download URL
+url_path,http://evitesecured.top/invitation/Inv.html,Download URL
+domain,relay.aceheritagehouse.top,Suspicious screenconnect relay
+url_path,https://givingthanktogod.de/invite/invite.exe,Download URL
+domain,krimafruthszone.site,Download URL
+ip,38.240.48.123,ScreenConnect Connection IP 
+ip,107.175.70.173,ScreenConnect Connection IP 
