@@ -1,0 +1,91 @@
+﻿Indicator_type,Data,Notes
+Description,IOCs related to fake Claude site and Donut plus Beagle backdoor,https://www.sophos.com/en-us/blog/donuts-and-beagles-fake-claude-site-spreads-backdoor
+filename,Claude-Pro-windows-x64.zip,Archive
+filename,Claude.msi,Installer
+filename,DeviceSync.zip,Archive
+filename,Estado de Cuenta.zip,Archive
+sha256,35feef0e6806c14f4ccdb4fceff8a5757956c50fb5ec9644dedae665304f9f96,Claude-Pro-windows-x64.zip
+sha256,86a6ffa23e924d1afbfb31b55fe780916cf3c9a4f8c3165542fdd726783fc796,Claude.msi
+sha256,d5590802bf0926ac30d8e31c0911439c35aead82bf17771cfd1f9a785a7bf143,avk.dll (sideloaded DLL)
+sha256,7f50afef2d6e52a160cceb5f2c9945ce89b8e923836e0e550245a46509a98851,First stage shellcode
+sha256,99cb90a3cd46650b8b766c658b7af1b8bbe54a2ac7dcf61429686fd1c548395b,Backdoor
+sha256,0a19870ba24aeb9d4b5dde091ef8071d76f8a5e43ac8c6f5b9f283020580a60a,hostfxr.dll (sideloaded DLL)
+sha256,2c30c20854e1f6a493aef344cea2d114c566ebae096c3c75508f4e03d5492288,AdaptixC2 shellcode
+sha256,e6d66d192a779f195426db94d2568c03a9bd0d2e8f1972aa32a0317940ae19c2,DeviceSync.zip
+sha256,46dea8c1af85134a7b15fc7168386eadd15474b1a6159567b24e83d8a30fc6ef,Estado de Cuenta.zip
+sha256,a3c5c7253c0b3ed92e86dc5661d8530a0e8acdf8768e80362e5fe897ccb6cd84,MpClient.dll (sideloaded DLL)
+domain,claude-pro.com,Distribution
+domain,license.claude-pro.com,C2
+domain,www.gouvvbo.top,C2
+ip,8.217.190.58,C2
+sha256,4457ed2e5ef770f70596735a6bac03f78e426a548335742ac761fba60f987a26,Claude-Pro-Relay-Technical-Overview.zip
+sha256,be153ac4db95db7520049a4c1e5182be07d27d2c11088a2d768e931b9a981c7f,"NOVUpdate.exe (legitimate binary, misused in sideloading)"
+sha256,8ac88aeecd19d842729f000c6ab732261cb11dd15cdcbb2dd137dc768b2f12bc,NOVUpdate.exe.dat
+sha256,586f27257d3eaee7d4bec9e9207c317a9caeded95eca3969739d7e8181d24620,GolddTV.msi
+sha256,33f0caec6f03727fc77ca656ab92cbf20fed53f0fe85a06ec9620aab5e8c9e27 ,NOVUpdate.exe.dat
+domain,update-trellix.com,C2
+filename,NOVupdate.exe,"NOTE: legitimate binary, misused in sideloading attack"
+filename,NOVupdate.exe.dat,Encrypted config file
+filename,avk.dll,"Malicious DLL, named after legitimate DLL"
+filename,MpCopyAccelerator.exe,"NOTE: legitimate binary, misused in sideloading attack"
+filename,MpClient.dll,"Malicious DLL, named after legitimate DLL"
+filename,Windows.log,Encrypted config file
+filename,hostfxr.dll,"Malicious DLL, named after legitimate DLL"
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
