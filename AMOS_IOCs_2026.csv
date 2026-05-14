@@ -1,0 +1,14 @@
+﻿Indicator_type,Data,Notes
+Description,IOCs related to AMOS infostealer,https://www.sophos.com/en-us/blog/why-amos-matters-the-macos-malware-stealing-data-at-scale
+sha256,c6a4e6ea6d8f31cfadd93c203dadc3ab1e4f50cca504227049aeb579850d009c,AMOS stealer
+sha256,affb4e6919fd3d1532c5a9e3479c5a0f6585fac95fc1ba53d931f383bb340fdc,AMOS stealer
+domain,sphereou.com,Payload site
+domain,sassonco.com,C2
+ip,38.244.158.56 ,C2
+ip,45.94.47.204,C2
+ip,199.217.98.33,C2
+ip,45.94.47.205,C2
+,,
+,,
+,,
+,,
