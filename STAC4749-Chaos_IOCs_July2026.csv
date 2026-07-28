@@ -1,0 +1,100 @@
+﻿Indicator_Type,Data,Note
+Description,Threat indicators for STAC4749 Chaos vishing blog post,https://www.sophos.com/en-us/blog/chaos-in-teams-vishing
+ip,93.88.205.136,Source of STAC4749 Teams vishing calls
+ip,5.8.18.80,Source of STAC4749 Teams vishing calls
+ip,2.58.14.254,Source of STAC4749 Teams vishing calls
+ip,94.140.114.192,Hard-coded C2 server in STAC4749 loader
+ip,94.140.115.18,Hard-coded C2 server in STAC4749 loader
+ip,94.140.115.129,Hard-coded C2 server in STAC4749 loader
+ip,208.91.112.55,STAC4749 C2 server to download additional payloads
+ip,193.29.57.37,STAC4749 C2 server to download additional payloads
+ip,195.133.38.33,C2 server used by STAC4749 backdoor
+ip,95.81.118.189,"C2 server used by STAC4749 Golang implant (autumn.exe, graph3.exe)"
+ip,130.49.214.20,C2 server used by STAC4749 Golang implant (shield.exe)
+ip,2.58.15.231,"C2 server used by STAC4749 Golang implant (dizzy.exe, 7414fs*.exe)"
+domain,stats09.filldowl.online,STAC4749 C2 server to download additional payloads; associated with 172.67.188.51
+domain,de3.filedwnld.top,STAC4749 C2 server to download additional payloads; associated with 104.21.6.144 and 172.67.155.39
+domain,dl2.filesdwnl.top,STAC4749 C2 server to download loader (ms_876234.exe); associated with 172.67.207.177
+domain,fa4.fldwnld.online,STAC4749 C2 server to download backdoor (updater.exe); associated with 172.67.190.104
+domain,fa2.filesdwnload.top,STAC4749 C2 server to download additional payloads; associated with 172.67.204.30
+domain,fa5.flsdwnld.online,STAC4749 C2 server to download additional payloads; associated with and 172.67.145.58
+domain,re1.filesdwnld.top,STAC4749 C2 server to download additional payloads; associated with 104.21.85.12
+domain,re2.filesdwnload.top,STAC4749 C2 server to download helper*.exe loader; associated with 172.67.204.30
+domain,re4.fldwnld.online,STAC4749 C2 server to download helper*.exe loader; associated with 172.67.190.104 and 104.21.10.139
+domain,re5.flsdwnld.online,STAC4749 C2 server to download additional payloads; associated with 104.21.47.61
+domain,re8.dowlfles.online,STAC4749 C2 server to download additional payloads; associated with 172.67.191.81
+domain,re19.downlf.online,STAC4749 C2 server to download additional payloads; associated with 104.21.94.153
+domain,fa16.dwlfils.online,STAC4749 C2 server to download additional payloads; associated with 172.67.221.81
+domain,re20.downlfl.online,STAC4749 C2 server to download additional payloads; associated with 172.67.159.160
+domain,fa103.aohoodie.com,STAC4749 C2 server to download additional payloads; associated with 104.21.61.216
+domain,re103.aohoodie.com,STAC4749 C2 server; associated with 172.64.80.1 and 172.67.215.105
+domain,re104.artcnb.com,STAC4749 C2 server; associated with 104.21.71.56
+domain,conf.grahql.workers.dev,C2 server used by STAC4749 backdoor; associated with 104.21.70.237 and 172.67.140.122
+domain,webconf.shop-api.workers.dev,C2 server used by STAC4749 backdoor; associated with 104.21.15.12 and 172.67.160.254
+domain,api.grahql.workers.dev,C2 server used by STAC4749 backdoor; associated with 104.21.70.237
+domain,imarketads.com,C2 server used by STAC4749 malicious DLL (vcruntime140_1.dll); associated with 34.196.172.61
+domain,legio.name,C2 server used by STAC4749 reverse SOCKS proxy (sc5.exe); associated with 104.21.71.235 and 172.67.172.22
+domain,jrown.fun,C2 server used by STAC4749 backdoor; associated with 172.67.143.225
+url,https://de3.filedwnld.top/lwfdei/copyq-13.0.0.zip,Hosting STAC4749 malicious CopyQ .zip archive
+url,https://fa2.filesdwnload.top/spdnsq/updater.exe,Hosting STAC4749 backdoor (updater.exe)
+url,https://re5.flsdwnld.online/2/download/link,Hosting STAC4749 backdoor (7414fs*.exe)
+url,https://fa16.dwlfils.online/f16mqm/msupdate.exe,Hosting STAC4749 backdoor (msupdate.exe)
+url,https://fa103.aohoodie.com/olhsek/autumn.exe,Hosting STAC4749 Golang implant (autumn.exe)
+url,https://fa3.filesdownld.top/ysosje/left.exe,Hosting STAC4749 Golang implant (left.exe)
+url,https://fa4.fldwnld.online/f4yxje/nation.exe,Hosting STAC4749 Golang implant (nation.exe)
+url,https://fa2.filesdwnload.top/spdnsq/graph.exe,Hosting STAC4749 Golang implant (graph.exe)
+url,https://fa4.fldwnld.online/f4yxje/tube.exe,Hosting STAC4749 Golang implant (tube.exe)
+url,https://fa5.flsdwnld.online/f5yxog/WiSec.exe,Hosting STAC4749 Golang implant (WiSec.exe)
+url,https://fa5.flsdwnld.online/f5yxog/agree.exe,Hosting STAC4749 Golang implant (agree.exe)
+url,https://fa5.flsdwnld.online/f5yxog/hire.exe,Hosting STAC4749 Golang implant (hire.exe)
+url,https://fa5.flsdwnld.online/f5yxog/dizzy.exe,Hosting STAC4749 Golang implant (dizzy.exe)
+url,https://fa5.flsdwnld.online/f5yxog/confirm.exe,Hosting STAC4749 Golang implant (confirm.exe)
+url,https://fa5.flsdwnld.online/f5yxog/sc5.exe,Hosting STAC4749 reverse SOCKS proxy (sc5.exe)
+sha1,a2c6b58d1255b26af6194c7b0270371d91abc21d,STAC4749 backdoor (msupdate.exe)
+md5,36e80c375861d3ff0a55d5e49c8fe12e,STAC4749 backdoor (msupdate.exe)
+sha256,9ea9f3efa1b594fc1ac4bc9dc75ac0f169d606ee1a4c6088b2b7432134643ea,STAC4749 backdoor (msupdate.exe)
+sha1,4081f516e63d5daeec06c855fe5e7dd1953f62fd,STAC4749 backdoor (updater.exe)
+md5,393bb7b8df42079529858fa83178d769,STAC4749 backdoor (updater.exe)
+sha256,bb96d21b7a61628724f13c6d4506b9d7bb56020d1c41fc79310f74666bb75904,STAC4749 backdoor (updater.exe)
+sha1,51c762e7387aad3e12219c72919e3d3aafb143fc,STAC4749 reverse SOCKS proxy binary (sc5.exe)
+md5,3ae5ecc256090a896e7cd8c877f83c1b,STAC4749 reverse SOCKS proxy binary (sc5.exe)
+sha256,35a75212862ce719ae6de1758949be33a3de787fab31e2d98436bacce8369d92,STAC4749 reverse SOCKS proxy binary (sc5.exe)
+sha256,23cb533bc3a5b535c06c8f0865e6cdebf442d56a7ac275baddcb9785279e4b88,STAC4749 malicious loader (helper*.exe)
+sha1,f0eb24f7cb4fc861ad19007accd69868eb46111d,STAC4749 malicious loader (helper*.exe)
+md5,718030cf248b7d25dbc5a3e5a37440f9,STAC4749 malicious loader (helper*.exe)
+sha256,44f8bd68487d0c40227ed44321cf16fc4a34d645252e98d6ba3f81e9f05e7900,STAC4749 malicious loader (helper*.exe)
+sha256,d5572db12b800e87f986ef1138690ec5e17dfa5a0720dc75d453233ada88ee6d,STAC4749 malicious loader (helper*.exe)
+sha1,cd8515405738024b3c7a537901bf6712489b8739,STAC4749 malicious loader (helper*.exe)
+md5,5658b64ebf3adc94f1ca13f802ec2f26,STAC4749 malicious loader (helper*.exe)
+sha256,2d8ea8fb20f1311e04ea88baa7cff957f6cb73899a524dc2bd39523e14ab022f,STAC4749 malicious loader (helper*.exe)
+sha1,ca304f45a6379a1411435186594a7297fbaf247d,STAC4749 malicious loader (sekv*.exe)
+md5,cce89a06b51d653f487dc7894dfa80e5,STAC4749 malicious loader (sekv*.exe)
+sha256,1cf3131b6f487067b3746dd4743544fbbfa553fb2941176b8213996aac61425c,STAC4749 malicious loader (sekv*.exe)
+sha1,46cbc561992ba98851700d87c4f8867985b2d0f4,STAC4749 malicious loader (sekv*.exe)
+md5,c19d914dc36ad6cff35c29d00e255223,STAC4749 malicious loader (sekv*.exe)
+sha256,746a693e2ba1bb50b941a6ea30026cce02ab9b64ffb9fa6168a62f7aa9557f0a,STAC4749 malicious loader (sekv*.exe)
+sha256,94b66ac8391ca543b0dffde6a2d475d29afce6fe32995eda76d379553da68407,STAC4749 Golang implant (autumn.exe)
+sha1,42803189646f339852174bb03189c2d1ce648203,STAC4749 Golang implant (graph.exe)
+md5,bc2b16989ae37c6e863439e8f329d23e,STAC4749 Golang implant (graph.exe)
+sha256,9faa993d608c09eed5dcc9c945b8dd07431fcc192f0232ef379293622a1f3586,STAC4749 Golang implant (graph.exe)
+sha1,29429aea8f9d7b281494a42c3b107c8358320d44,STAC4749 Golang implant (tube.exe)
+md5,2739dfad139f9e44a88b7fcc4749ddbb,STAC4749 Golang implant (tube.exe)
+sha256,c2fa32ac59f6424657a8513a7f158082877b97436b8502c3879f5736713e2132,STAC4749 Golang implant (tube.exe)
+sha1,a0063a9dfb75690beadbe4584cedf27d85186dc1,STAC4749 Golang implant (midnight.exe)
+md5,566fab5cd3596ebeceecd7decd3496a9,STAC4749 Golang implant (midnight.exe)
+sha256,3f0dbc159dcdfb884ebc577dfe873d468617bf5a483bf832469cd209efbe84d4,STAC4749 Golang implant (midnight.exe)
+sha1,da2e2d910307d03164c3a1742e92a7c0d090c374,STAC4749 Golang implant (agree.exe)
+md5,547bb05579fa34992289014088967e20,STAC4749 Golang implant (agree.exe)
+sha256,95fcab7e8892cb87bcadb523a4491bf10ee0788b859647ca7cca1e1d92d7519a,STAC4749 Golang implant (agree.exe)
+sha1,c0a125258ef094c56ed3ad19b09c7b685fb042c6,STAC4749 Golang implant (dizzy.exe)
+md5,1e3f6f093042fb880417bdca6cb59f11,STAC4749 Golang implant (dizzy.exe)
+sha256,219aa20e572dee9d1ef47ae1c33a851fc4fcecc5a45d15ce80c863da67cfeb10,STAC4749 Golang implant (dizzy.exe)
+sha1,b99a884dee5a21eaad57048d581cd14ad8862924,STAC4749 Golang implant (confirm.exe)
+md5,a739bf9634e7094b69ecc286a629cf3c,STAC4749 Golang implant (confirm.exe)
+sha256,65060c1d1c6020ac445ea7b394ef9b1bd9aa23f27d9a508470403c7296924ce8,STAC4749 Golang implant (confirm.exe)
+sha1,6717b8d7be18ea5cdb5944c5b259e022496c6485,STAC4749 malicious DLL (vcruntime140_1.dll) sideloaded via CopyQ binary 
+md5,5bd635a72d6f89af394d98e025939eb6,STAC4749 malicious DLL (vcruntime140_1.dll) sideloaded via CopyQ binary 
+sha256,cd3163a308ba40c3a5e153c0326b7cf23a36debb6255624f9afb7e7ca5182391,STAC4749 malicious DLL (vcruntime140_1.dll) sideloaded via CopyQ binary 
+sha1,2192597a0cc026fe6cf6f861cf4261c8eb95618a,STAC4749 malicious CopyQ .zip archive (copyq-13.0.0.zip)
+md5,39efd14c0caa41aabc9cd05c4d7dae74,STAC4749 malicious CopyQ .zip archive (copyq-13.0.0.zip)
+sha256,d8fed5a9fa8baee68d241190f29a2e91f5c549a684cb66c92de3974fc9f3db22,STAC4749 malicious CopyQ .zip archive (copyq-13.0.0.zip)
