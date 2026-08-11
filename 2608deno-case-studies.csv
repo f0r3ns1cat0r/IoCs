@@ -1,0 +1,33 @@
+﻿Indicator_type,Data,Note
+Description,https://www.sophos.com/en-us/blog/deno-case-studies,Indicators of compromise related to abuse of Deno JS runtime environment
+domain,serialmenot[.]com,C2 endpoint (multiple cases)
+domain,crahdhduf[.]com,C2 endpoint (multiple cases)
+domain,sendtokenscf[.]com,Initial access infrastructure delivering malicious MSI
+domain,ypjkevsbsdhj.zhivachkapro[.]com,Obfuscated PowerShell cradle used for payload download
+domain,koromoblog[.]com,Source of malicious Python loader (case 2)
+file_path_name,C:\ProgramData\u.msi,File path of malicious MSI file (case 3)
+file_path_name,C:\Users\<user>\AppData\Local\mainappv23\Charlie92.vbs,Initial script used to trigger PowerShell execution
+file_path_name,C:\Users\<user>\AppData\Local\mainappv23\Hotel_tool49.ps1,PowerShell loader that installs runtime and executes encoded JavaScript payload
+file_path_name,C:\Users\<user>\AppData\Local\<REDACTED>\zulu_worker10.vbs,Initial script used to trigger PowerShell execution
+file_path_name,C:\Users\<user>\AppData\Local\<REDACTED>\charlie53.ps1,PowerShell loader that installs runtime and executes encoded JavaScript payload
+file_path_name,C:\Users\<user>\AppData\Local\Serial\python85.ps1,PowerShell loader that installs runtime and executes encoded JavaScript payload
+file_path_name,C:\Users\Public\Downloads\samios.save,Output file created from SAM hive dump (credential access activity)
+file_path_name,C:\Users\Public\axis-agent.exe,Suspicious binary staged in public directory (possible tool/persistence)
+filename,Charlie92.vbs,Initial script used to trigger PowerShell execution
+filename,Lynx_system59.vbs,Initial script used to trigger PowerShell execution
+filename,november69.vbs,Initial script used to trigger PowerShell execution
+filename,zulu_worker10.vbs,Initial script used to trigger PowerShell execution
+filename,charlie53.ps1,PowerShell loader that installs runtime and executes encoded JavaScript payload
+filename,Hotel_tool49.ps1,PowerShell loader that installs runtime and executes encoded JavaScript payload
+filename,lynx_script20.ps1,PowerShell loader that installs runtime and executes encoded JavaScript payload
+filename,python85.ps1,PowerShell loader that installs runtime and executes encoded JavaScript payload
+filename,samios.save,Output file created from SAM hive dump (credential access activity)
+ip,144.31.2[.]161,C2 infrastructure used for beaconing and payload retrieval
+mutex,Localhost:10044,JavaScript malware binds and checks this port for competing processes
+registry_path_key,HKCU\Software\Microsoft\Windows\CurrentVersion\Run\Golf_task40,Persistence mechanism used to execute VBS loader at user logon
+registry_path_key,HKCU\Software\Microsoft\Windows\CurrentVersion\Run\Papa_software10,Persistence mechanism used to execute VBS loader at user logon
+SHA256,74260ef8c440692043aaa4656947258b3acfc207c95f09682b69d031b42890a0,Hash for malicious PsExec.msi utility
+SHA256,2541d96d1d071f87127bf0714f70692d25e1946632457718c6f378fcc4a3dca2,Hash for malicious Lynx_system59.vbs
+SHA256,b0af82de672d81f3c2f153977923b3884a8a9e7045b182c2379b19a1996931a0,Hash for malicious python85.ps1
+url,hxxps[://]github[.]com/taskp/PsExec/releases/tag/v2.43,Source of malicious PsExec.msi utility
+url,hxxps[://]github[.]com/taskp/PsExec/releases/download/v2.43/PsExec_v2.43.zip,Attacker-controlled GitHub repository hosting the masqueraded PsExec binary
