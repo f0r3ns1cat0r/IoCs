@@ -1,0 +1,45 @@
+﻿Indicator_type,Data,Description
+Description,IOCs related to AI threats 2025-2026,https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands
+domain,download-version.1-5-8.com,Fake Claude msixbundle host
+domain,download-version.1-8-3.com,Fake Claude installer host
+domain,download-version.1-9-18.com,Fake Claude installer / LummaStealer
+domain,download-version.2-1-9.com,Fake Claude installer host
+domain,download.active-version.com,Fake Claude payload host
+domain,events.ms709.com,irm/iex fake Claude installer; process hollowing
+domain,claude-setup.com,Fake Claude install.ps1
+domain,code.verification-claude-cdn.beer,Fake-Claude themed payload CDN
+domain,finger.claudemo.net,AI-themed finger.exe recon / C2
+domain,claudefos.com,Fake CAPTCHA (Google Ads) ClickFix lure
+domain,deepaichats.com,AI-themed C2 / malicious extension infra
+domain,chatsaigpt.com,Malicious AI-themed Chrome extension C2
+domain,chataigpt.pro,Malicious AI-themed extension infra
+domain,chatgptsidebar.pro,Malicious AI-themed extension infra
+domain,chatgptbuddy.com,Malicious AI-themed extension infra
+domain,copilot.info,ClickFix clipboard-hijack targets
+domain,copilot.domains,ClickFix clipboard-hijack targets
+domain,openew.app,Infostealer redirect
+domain,claudverification-id.beer,Claude-themed ClickFix C2 URL
+domain,greenactiv.com,macOS infostealer curl chain
+domain,as-kapital.com,Compromised site redirecting to AI-themed ClickFix
+domain,util-locate.com,"Compromised site, chatgpt.com-tagged referral"
+domain,perplexity-ai.online,Fake Perplexity extension infrastructure
+url,extension.tilda.ws/perplexityai,Fake Perplexity extension landing page
+ip,144.172.102.171,EvilProxy AiTM source
+ip,134.122.1.247,finger.claudemo.net resolution
+ip,5.181.3.142,Associated fake-Claude campaign infrastructure
+ip,91.195.240.123,Associated fake-Claude campaign infrastructure
+sha256,98d1f151872c27d0abae3887f7d6cb6e4ce29e99ad827cb077e1232bc4a69c00,DeepSeek/AI extension campaign sample
+sha256,20ba72e91d7685926c8c1c5b4646616fa9d769e32c1bc4e9f15dddaf3429cea7,DeepSeek/AI extension campaign sample
+domain,claude-pro.com,Fake Claude site
+domain,license.claude-pro.com,Beagle backdoor C2
+domain,get-mactech.com,ClickFix macOS infostealer landing page
+domain,mymachub.com,ClickFix macOS infostealer landing page
+domain,update-crowdstrike.com / update-sentinelone.com,Security-brand impersonation
+sha256,1cbcf213219a9c01de64354c836f77bfb70af5459e48bb947bd0b8011f67be35,Slack RAT sample
+sha256,bed31c30a7c08e38f9c540bc87eb1bbcbddb5dc48f3bdcf011e2e6e8bb2f6051,Slack RAT sample
+sha256,becb8d7d7b2c0dbce9e7d022bfe9948c030508f285e6d4b5c822bf034961a2fb,PHP web shell
+sha256,ef9935cb14c0e3259d9d2a8b43b48c67e9bdf5cae12d9a26048a70e13cb3c698,PHP web shell variant
+sha256,62cdaecc867678720251b732cec0f2e845666f51d39d7cde064984bff3831c33,PHP web shell variant
+ip,185.193.66.120,Chisel C2
+ip,64.227.138.82,Alternate Chisel C2
+ip,129.212.225.220,C2
